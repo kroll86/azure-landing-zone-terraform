@@ -1,7 +1,7 @@
 # Azure Landing Zone — Terraform
 
 [![terraform-ci](https://github.com/kroll86/azure-landing-zone-terraform/actions/workflows/terraform-ci.yml/badge.svg)](https://github.com/kroll86/azure-landing-zone-terraform/actions/workflows/terraform-ci.yml)
-![Terraform](https://img.shields.io/badge/terraform-~%3E1.9-7B42BC)
+![Terraform](https://img.shields.io/badge/terraform-~%3E1.17-7B42BC)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 Opinionated Azure Landing Zone built with Terraform — management groups,
@@ -38,7 +38,7 @@ guardrails on by default.
 
 ## Prerequisites
 
-- Terraform ~> 1.9, Azure CLI, an Azure subscription
+- Terraform ~> 1.17, Azure CLI, an Azure subscription
 - Or just open a GitHub Codespace: the devcontainer installs everything
 
 ## Design decisions
